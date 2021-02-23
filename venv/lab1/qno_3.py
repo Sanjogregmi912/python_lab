@@ -1,0 +1,1 @@
+#N students take  K apples and distribute them among each other evenly. the remaining (the undivisible)part reamins in the basket .how many apples will each single students get? how many apples will remain in the basket? the program reads
