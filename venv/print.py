@@ -1,0 +1,7 @@
+age=int(input("Enter your age"))
+name=input("Enter your name")
+print(f"Your age:{age}.Your name is:{name}")
+print("your age is",age,".your name is ",name)
+print("your name is %s and i am %d years old" % (name,age))
+print("hello my name is {} and i am {} years old".format(name,age))
+print("hello my name is " + name + "am i "+str(age)+ "years old")
