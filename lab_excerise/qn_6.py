@@ -4,5 +4,5 @@
 #BMI= mass in kg / height in m**2
 mass=float(input("enter the mass (in kg):"))
 height=float(input("Enter the height in meter square:"))
-BMI= mass//height
+BMI= int(mass/(height**2))
 print(f"the body mass index of any person is {BMI} in kg per meter square")
