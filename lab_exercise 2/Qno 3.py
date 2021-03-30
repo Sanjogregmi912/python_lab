@@ -3,6 +3,6 @@
 price_of_house=1000000
 down_payment=input("choose if you have good credit or not?\n")
 if(down_payment=="good credit"):
-    print((f"the amount after good credit={10/100*1000000}"))
+    print(f"the amount after good credit={int(10/100*price_of_house)}")
 else:
-    print((f"the amount when you havenot any good credit is {20//100*1000000}"))
+    print(f"the amount when you havenot any good credit is {int(20//100*price_of_house)}")
