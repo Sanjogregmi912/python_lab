@@ -19,23 +19,15 @@ third_command="exit"
 
 while command_repeat<=2:
     command_repeat+=1
-    user_command = input("enter any command")
+    user_command = input("enter any command").lower()
     if user_command==first_command:
         print("car started...ready to go!!")
-        if first_command:
-            print("already started")
-        else:
-            print("car started...ready to go")
+
     elif user_command==second_command:
         print("car stopped..")
-        if second_command:
-            print("already stopped")
-        else:
-            print("car stopped")
 
     elif user_command==third_command:
-        print("exit")
-
+        break
     else:
         print("i donot understand this")
 
