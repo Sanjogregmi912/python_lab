@@ -1,8 +1,9 @@
+
 command=""
 started=False
 # while command !=true
 while True:
-    command =input(">").lower()
+    command =input(">>>").lower()
     if command=="start":
         if started:
             print("car has already started.")
@@ -25,6 +26,8 @@ while True:
         break
     else:
         print("i donot understand that")
+
+
 
 
 
