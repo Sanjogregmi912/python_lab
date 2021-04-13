@@ -3,9 +3,9 @@ for a given integer x, print'true' if it is positive,print'false'if it is negati
 it is 0
 '''
 x=int(input("enter any number"))
-if x==+x:
+if x>0:
     print("it is positive")
-elif x==-x:
+elif x<0:
     print("it is negative")
-elif x==0:
-    print("it is zero ")
+else:
+    print("it is zero")
